@@ -1,0 +1,33 @@
+html {
+    background-color: #ECD65C;
+    padding:10px;
+}
+h3,p {
+    color:#695F29;
+    margin-left: 5px;
+}
+button {
+    background-color: #695F29;
+    color: #D5F7FF;
+    border-style: none;
+    border-radius: 5px;
+    height:30px;
+    margin-left: 5%;
+}
+button:hover {
+    background-color:#B79D11;
+}
+
+button:active {
+    background-color:#E8C815;
+}
+.contenedor_preguntas {
+    background-color: #C4EAF5;
+    border-style: solid;
+    border-color: #695F29;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#respuesta1{
+    overflow: scroll;
+}
