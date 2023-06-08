@@ -62,10 +62,25 @@ function addNumbers() {
     }
     rta3.innerHTML = "[" + array + "]";
 }
-function addSemana() {
+function addText() {
     let val;
     let array = [];
     let rta4 = document.getElementById('respuesta4');
+    while (val != "") {
+        val = prompt("escribe letras o palabras"); 
+        if (isNaN(parseInt(val))) {
+          array.push(val);
+        }
+        else {
+        alert("no queremos numeros dame letras o frases");
+        }
+        console.log(array)
+    }
+    rta4.innerHTML = "[" + array + "]";
+}
+function addSemana() {
+    let val;
+    let array = [];
     while (val != 'domingo') {
         val = prompt('dame un día de la semana sin tildes, ni mayusculas.');
         switch (val) {
